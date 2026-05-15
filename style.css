@@ -271,6 +271,7 @@ nav .middle{
     height: 130%;
     top: -17%;
     left: -12%;
+    z-index: 10;
 }
 
 .section1 .right{
@@ -384,9 +385,11 @@ nav .middle{
 
 .section2 .section .right-section .card #kurkure{
     position: absolute;
-    height: 180px;
+    height: 190px;
     top: -14px;
     left: -20px;
+    transform: translateX(-27px);
+    z-index: 0;
 }
 
 .section2 .section .right-section .card .card-text{
